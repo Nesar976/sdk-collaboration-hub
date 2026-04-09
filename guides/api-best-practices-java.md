@@ -1535,7 +1535,9 @@ are built around them.
 |--------------------------|-------------------------------------------|---------------------------------------|
 | `timeout-error`          | `java.util.concurrent.TimeoutException`   | Standard for timeout scenarios        |
 | `invalid-argument-error` | `java.lang.IllegalArgumentException`      | Standard for bad input                |
+| `illegal-format`         | `java.lang.IllegalArgumentException`      | Standard for malformed input          |
 | `invalid-state-error`    | `java.lang.IllegalStateException`         | Standard for wrong object state       |
+| `not-found-error`        | `java.util.NoSuchElementException`        | Standard for missing entities         |
 | `io-error`               | `java.io.IOException`                     | Standard for I/O failures             |
 | `unsupported-error`      | `java.lang.UnsupportedOperationException` | Standard for unimplemented operations |
 
